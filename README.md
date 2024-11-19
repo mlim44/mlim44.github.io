@@ -1,8 +1,8 @@
 # Community Support Tracker Project
 
 ## Group Members
-Maria Phoebe Lim
-Edward Rivera
+- Maria Phoebe Lim
+- Edward Rivera
 
 ## Project Introduction
 The Community Support Tracker is a web application that monitors and manages community support intiatives by utilizing the following components:
