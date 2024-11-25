@@ -1,0 +1,93 @@
+body {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 50rem;
+
+    text-align: center;
+    font-family: "Hind", sans-serif;
+}
+
+
+div {
+    padding: 0.5rem 0;
+    margin: 0.5rem;
+}
+
+h1 {
+    font-family: "Barlow", serif;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 0rem;
+
+    font-family: "Barlow", serif;
+    font-weight: 600;
+}
+
+a {
+    padding: 0 0.25rem;
+
+    color: #202020;
+    text-decoration: none;
+    border-bottom: white 1px solid;
+
+}
+
+#tracker-container {
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+}
+
+/* .active {
+    font-weight: 700;
+    color: #000000;
+    background-color: white;
+} */
+
+
+a:visited {
+  color:  #202020;
+  font-style: italic;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #f5f5f5;
+    margin: 0.5rem 0;
+    border-bottom: white 1rem solid;
+
+    font-weight: 600;
+    font-size: 0.75rem;
+
+    a:hover {
+        background-color: white;
+    };
+
+}
+
+.questions {
+    
+    /* Sets the layout for all input  */
+    padding: 0.5rem 0;
+    flex: 100%;
+}
+
+.error-message {
+
+    /* Styling for error messages  */
+    color: darkred;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+form {
+
+    /* General Form layout  */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
